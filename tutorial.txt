@@ -1,0 +1,13 @@
+# Ir para pasta das virtuaislenvs
+-> cd virtuallenvs
+# Criar pasta para desenvolvimento
+-> python -m venv dev_flask
+-> cd dev_flask
+# Inicializar a vitualenv na pasta dev_flask
+-> .\Scripts\activate
+# Instalar django na virtualenv ativada
+-> pip install Flask
+# Entrar na pasta do projeto criado
+-> cd hello_flask
+# Rodar arquivo
+-> python <nome_do_arquivo_>.py
